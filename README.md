@@ -1,6 +1,6 @@
 # 433MHz Auriol temperature sensor data decoder
  
-This is a source code for the Arduino Nano application that decodes Auriol temperature sensor data from attached 433MHz receiver. Receiver output is connected to D8 input pin. Serial data is delivered at D0 pin (UART Tx pin) at 115.2kbps.
+This is a source code for the Arduino Nano application that decodes Auriol temperature sensor (AURIOL RC TEMPERATURE STATION 4-LD5832-2) data from attached 433MHz receiver. Receiver output is connected to D8 input pin. Serial data is delivered at D0 pin (UART Tx pin) at 115.2kbps.
 
 Delivered data has 24 bits:
 * bits 0-7   - random value (never 0x00) set when inserting batteries
